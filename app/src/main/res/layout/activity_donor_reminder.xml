@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="35dp"
+    android:background="#fff"
+    tools:context="com.saiban.bahawalpurblooddonors.donorReminder">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/reminderError"
+        android:visibility="gone"
+        android:src="@drawable/remindererror"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/mainContainer"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/dmsk"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:text="By setting reminder, you'll be not contacted by receivers for Next 3 Months."
+            android:textColor="@color/colorPrimaryOrange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/qw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="YOur Last Donation date"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/donationDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/qw"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="15dp"
+            android:text="DD/MM/YYYY"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/nnn"
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="now you can donate on"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryOrange"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/next_donationDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nnn"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="15dp"
+            android:text="DD/MM/YYYY"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/getNextDonationDate_Btn"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Submit"
+            android:layout_margin="20dp"
+            android:textColor="#fff"
+            android:background="@drawable/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</RelativeLayout>

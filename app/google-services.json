@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "460151593763",
+    "firebase_url": "https://bhawalpurblood.firebaseio.com",
+    "project_id": "bhawalpurblood",
+    "storage_bucket": "bhawalpurblood.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460151593763:android:8bdcbf6cc872a478",
+        "android_client_info": {
+          "package_name": "com.saiban.bahawalpurblooddonors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460151593763-pp8i97rdu228cjneo3hriftehhmqrm1f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.saiban.bahawalpurblooddonors",
+            "certificate_hash": "1f503fdfbc92b76ca65bd0be82301d59e2142c09"
+          }
+        },
+        {
+          "client_id": "460151593763-qftlas5gj868etepb6g5ee63mljch33f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFQ29sk8rrHbbC2F7CfBFgKx2vAl57qDM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460151593763-qftlas5gj868etepb6g5ee63mljch33f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

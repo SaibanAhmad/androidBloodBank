@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_bloodcompatibility"
+            android:checkable="false"
+            android:icon="@drawable/info"
+            android:title="Blood Compatibility" />
+    </group>
+
+    <item
+        android:id="@+id/title_menu_2"
+        android:title="Extras">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:checkable="false"
+                android:icon="@drawable/aboutus"
+                android:title="About" />
+            <item
+                android:id="@+id/nav_Contact"
+                android:checkable="false"
+                android:icon="@drawable/contactus"
+                android:title="Contact" />
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/title_menu"
+        android:title="User">
+        <menu>
+            <item
+                android:id="@+id/nav_edit"
+                android:icon="@drawable/user"
+                android:title="Profile" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/signout"
+                android:title="Sign Out" />
+        </menu>
+    </item>
+
+</menu>

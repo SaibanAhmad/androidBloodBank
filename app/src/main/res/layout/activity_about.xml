@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.saiban.bahawalpurblooddonors.menuActivity.about">
+
+    <LinearLayout
+        android:id="@+id/aqw"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Bhawalpur Blood Donor, allows us to find blood donor and also blood seekers in our areas and can access them with just one click"
+            android:textAllCaps="true"
+            android:textColor="#333"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+
+    <!--<LinearLayout-->
+
+        <!--android:layout_below="@id/aqw"-->
+        <!--android:id="@+id/Saif"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:text="Saif Ur Rehman"-->
+            <!--android:textAllCaps="true"-->
+            <!--android:textColor="#333"-->
+            <!--android:textSize="20sp"-->
+            <!--android:textStyle="bold" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:text="A Student of BSIT , Young Age Android Developer"-->
+            <!--android:textSize="18sp"-->
+            <!--android:textStyle="italic" />-->
+
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/Saiban"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/Saif"-->
+    <!--android:layout_marginTop="30dp"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="10dp"-->
+    <!--android:text="Saiban Ahmad"-->
+    <!--android:textAllCaps="true"-->
+    <!--android:textColor="#333"-->
+    <!--android:textSize="20sp"-->
+    <!--android:textStyle="bold" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="5dp"-->
+    <!--android:text="Some thing about me will go here very motivational very amazing thing about me bala bala"-->
+    <!--android:textSize="18sp"-->
+    <!--android:textStyle="italic" />-->
+
+    <!--</LinearLayout>-->
+
+
+</RelativeLayout>
